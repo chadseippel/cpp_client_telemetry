@@ -1,4 +1,4 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 6.0
 
 let package = Package(
     name: "OneDS",
@@ -16,7 +16,8 @@ let package = Package(
     targets: [
         .target(
             name: "OneDS",
-            dependencies: [],
+            dependencies: [
+            ],
             path: "./lib",
             publicHeadersPath: "/lib/include/public",
             cSettings: [
