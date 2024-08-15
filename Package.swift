@@ -1,3 +1,5 @@
+// swift-tools-version: 5.8
+
 let package = Package(
     name: "OneDS",
     platforms: [
